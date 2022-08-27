@@ -1,5 +1,11 @@
 # useful-one-liners
-Terminal oneliners I always have to search for again :/
+Terminal commands/pipes/mini-scripts I always have to search for :/
+
+## Github clone all my repositories
+
+`gh repo list OWNER --limit 1000 | awk '{print $1; }' | xargs -L1 gh repo clone`
+
+Assumes `gh` is installed.
 
 ## Heroku CLI add repository to existing app
 
