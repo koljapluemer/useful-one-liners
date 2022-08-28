@@ -1,6 +1,10 @@
 # useful-one-liners
 Terminal commands/pipes/mini-scripts I always have to search for :/
 
+## Compress images
+
+`jpegoptim -v --size=240k file_name.jpg`
+
 ## Github clone all my repositories
 
 `gh repo list OWNER --limit 1000 | awk '{print $1; }' | xargs -L1 gh repo clone`
