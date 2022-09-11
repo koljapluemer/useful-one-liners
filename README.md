@@ -1,6 +1,12 @@
 # useful-one-liners
 Terminal commands/pipes/mini-scripts I always have to search for :/
 
+## Apache stop all
+
+Need to do this before starting Local WP on some machines.
+
+`sudo apachectl stop`
+
 ## Compress images
 
 `jpegoptim -v --size=240k file_name.jpg`
