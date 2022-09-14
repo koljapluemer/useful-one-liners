@@ -22,3 +22,9 @@ Assumes `gh` is installed.
 `heroku git:remote -a example-app`
 
 <https://devcenter.heroku.com/articles/git#for-an-existing-app>
+
+## youtube-dl audio only
+
+getting podcasts on my mp3 player like:
+
+`youtube-dl -f 'bestaudio[ext=m4a]' "http://youtu.be/hTvJoYnpeRQ"`
