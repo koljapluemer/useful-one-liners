@@ -7,6 +7,12 @@ Need to do this before starting Local WP on some machines.
 
 `sudo apachectl stop`
 
+## Audible to mp3
+
+`ffmpeg -activation_bytes 036b933a -i INPUT OUTPUT.mp3`
+
+[Get Activation Bytes](https://audible-converter.ml)
+
 ## Compress images
 
 `jpegoptim -v --size=240k file_name.jpg`
