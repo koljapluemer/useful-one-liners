@@ -33,6 +33,14 @@ Assumes `gh` is installed.
 
 <https://devcenter.heroku.com/articles/git#for-an-existing-app>
 
+## Refresh stale python repos
+
+On encountering some ancient Python project with a `requirements.txt` containing old, hard-coded versions of libraries, do the following:
+
+* copy-paste the `requirements.txt`
+* if needed: `pip install pip-tools`
+* `pip-compile -U requirements.txt`
+
 ## youtube-dl audio only
 
 getting podcasts on my mp3 player like:
