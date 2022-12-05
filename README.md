@@ -13,6 +13,10 @@ Need to do this before starting Local WP on some machines.
 
 [Get Activation Bytes](https://audible-converter.ml)
 
+## Broken Packages Fix
+
+When Ubuntu surprises me with `E: Unable to correct problems, you have held broken packages`, doing whatever you were trying to do with `aptitude` is *usually* the solution.
+
 ## Compress images
 
 `jpegoptim -v --size=240k file_name.jpg`
