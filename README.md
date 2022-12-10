@@ -41,6 +41,12 @@ On encountering some ancient Python project with a `requirements.txt` containing
 * if needed: `pip install pip-tools`
 * `pip-compile -U requirements.txt`
 
+## webp to jpg batch convert
+
+the web meme convertor
+
+`for i in *.webp; do name=`echo "$i" | cut -d'.' -f1`; echo "$name"; convert "$i" "${name}.jpg"; done`
+
 ## youtube-dl audio only
 
 getting podcasts on my mp3 player like:
