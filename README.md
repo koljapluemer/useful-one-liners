@@ -21,6 +21,12 @@ When Ubuntu surprises me with `E: Unable to correct problems, you have held brok
 
 `jpegoptim -v --size=240k file_name.jpg`
 
+## Crop the surrounding transparent part / whitespace from images
+
+requires imagemagick
+
+`convert input.png -trim +repage output.png`
+
 ## Github clone all my repositories
 
 `gh repo list OWNER --limit 1000 | awk '{print $1; }' | xargs -L1 gh repo clone`
