@@ -43,7 +43,7 @@ Assumes `gh` is installed.
 
 now that ngrok is paid and commercial and annoying:
 
-<npx localtunnel --port 8000>
+`npx localtunnel --port 8000`
 
 (it's an npm package)
 
