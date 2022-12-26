@@ -39,6 +39,14 @@ Assumes `gh` is installed.
 
 <https://devcenter.heroku.com/articles/git#for-an-existing-app>
 
+## Share localhost
+
+now that ngrok is paid and commercial and annoying:
+
+<npx localtunnel --port 8000>
+
+(it's an npm package)
+
 ## Refresh stale python repos
 
 On encountering some ancient Python project with a `requirements.txt` containing old, hard-coded versions of libraries, do the following:
