@@ -63,7 +63,9 @@ On encountering some ancient Python project with a `requirements.txt` containing
 
 the web meme convertor
 
-`for i in *.webp; do name=`echo "$i" | cut -d'.' -f1`; echo "$name"; convert "$i" "${name}.jpg"; done`
+```
+for i in *.webp; do name=`echo "$i" | cut -d'.' -f1`; echo "$name"; convert "$i" "${name}.jpg"; done
+```
 
 ## youtube-dl audio only
 
