@@ -33,6 +33,10 @@ requires imagemagick
 
 Assumes `gh` is installed.
 
+## Git push to all remotes
+
+`git remote | xargs -L1 git push --all`
+
 ## Heroku CLI add repository to existing app
 
 `heroku git:remote -a example-app`
