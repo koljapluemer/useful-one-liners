@@ -79,4 +79,4 @@ for i in *.webp; do name=`echo "$i" | cut -d'.' -f1`; echo "$name"; convert "$i"
 
 getting podcasts on my mp3 player like:
 
-`youtube-dl -f 'bestaudio[ext=m4a]' "http://youtu.be/hTvJoYnpeRQ"`
+`yt-dlp -f 'bestaudio[ext=m4a]' "http://youtu.be/XXXXXXXXX"`
