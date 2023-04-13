@@ -11,6 +11,10 @@ Need to do this before starting Local WP on some machines.
 
 `ffmpeg -activation_bytes 036b933a -i INPUT OUTPUT.mp3`
 
+batch:
+
+`for i in *.aax; do ffmpeg -activation_bytes 036b933a -i  "$i" "${i%.*}.mp3"; done`
+
 [Get Activation Bytes](https://audible-converter.ml)
 
 ## Broken Packages Fix
