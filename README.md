@@ -31,6 +31,10 @@ requires imagemagick
 
 `convert input.png -trim +repage output.png`
 
+## Force new IP address
+
+`sudo dhclient -r && sudo dhclient`
+
 ## Github clone all my repositories
 
 `gh repo list OWNER --limit 1000 | awk '{print $1; }' | xargs -L1 gh repo clone`
