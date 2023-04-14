@@ -65,6 +65,8 @@ now that ngrok is paid and commercial and annoying:
 
 ## Refresh stale python repos
 
+*(maybe learn to handle `poetry` instead)*
+
 On encountering some ancient Python project with a `requirements.txt` containing old, hard-coded versions of libraries, do the following:
 
 * copy-paste the `requirements.txt`
