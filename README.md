@@ -51,6 +51,10 @@ Assumes `gh` is installed.
 
 <https://devcenter.heroku.com/articles/git#for-an-existing-app>
 
+## Kill all instances of a given software
+
+`killall -s SIGKILL firefox`
+
 ## Merge PDFs
 
 `pdfunite file_start_or_whatever* out.pdf`
