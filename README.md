@@ -38,9 +38,11 @@ requires imagemagick
 
 ## Github clone all my repositories
 
-`gh repo list OWNER --limit 1000 | awk '{print $1; }' | xargs -L1 gh repo clone`
+`gh repo list koljapluemer --limit 1000 | awk '{print $1; }' | xargs -L1 gh repo clone`
 
 Assumes `gh` is installed.
+
+- *TODO*: allow to exclude repos starting with `_`, or archived repos (which should be the same)
 
 ## Git push to all remotes
 
